@@ -1,0 +1,17 @@
+/* .log{
+    width:12rem
+} */
+.hello{
+    text-align: center;
+    margin-top: 4rem ;
+    margin-bottom: 2rem ;
+    font-weight: bold;
+}
+.button{
+    border-color: #2f8e94;
+    background-color: #2f8e94;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+}

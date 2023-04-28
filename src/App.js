@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+// import { Button } from "react-bootstrap";
+import NavbarList from "./components/Navbar";
+import { Route, Switch } from "react-router-dom";
+import EquipmentDetails from "./components/ProductList";
+import TrendingDetails from "./components/trending";
+import SuggestedPage from "./components/Suggested";
+import FooterDetails from "./components/Footer";
+// import Page1 from "./components/Page1";
+// import vector from "../public/Vector1.png"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    
+          <NavbarList />
+       <EquipmentDetails />
+       <TrendingDetails />
+       <SuggestedPage /><br />
+       <FooterDetails />
+ {/* <Page1 /> */}
     </div>
   );
 }

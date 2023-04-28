@@ -1,0 +1,18 @@
+.items {
+    /* align-items: center; */
+    /* padding: 1px; */
+  }
+  
+  /* .items span {
+    font-size: 50px;
+    flex-basis: 65%;
+    margin-left: 120px;
+    margin-right: 350px;
+    font-weight: bold;
+  } */
+  
+  .items img{
+    height: 15px;
+    width: 15px;
+    border-radius: 20%;
+  }

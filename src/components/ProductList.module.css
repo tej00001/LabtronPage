@@ -1,0 +1,14 @@
+.logo {
+ padding-top: 2rem;
+  width: 18rem;
+  background-color: rgba(234, 232, 232, 0.881);
+}
+.h4 {
+  text-align: center;
+  padding: 3rem;
+  font-weight: bolder;
+}
+.text{
+    text-align: left;
+    font-weight:600;
+}
